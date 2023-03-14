@@ -1,0 +1,333 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+    font-family: "Manrope";
+
+}
+body{
+    height: 120vh;
+    width: 100vw;
+    background-color: #cbd5db;
+    /* overflow: hidden; */
+}
+body::-webkit-scrollbar {
+    display: none;
+  }
+  /* css for all the buttons used in project */
+  button{
+    border: none;
+    background: #6663e9;
+    padding: 11px 31px;
+    border-radius: 40px;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 800;
+    cursor: pointer;
+  }
+
+.main-above-container{
+    background-image: url("../assets/card\ images/mainBackground.png");
+    height: 134vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    position: relative;
+
+    background-size: cover;
+    filter: brightness(80%);
+
+}
+header nav{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 16px;
+
+}
+.main-above-container img{
+    height: 46px;
+    margin-left: 50px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:#f1f1f1;
+
+}
+nav ul{
+    display: flex;
+     gap: 50px;
+    align-items: center;
+    font-weight: 600;
+}
+hr{
+    margin: auto;
+    width:77%;
+    height: 3px;
+    background-color: #fff;
+    margin-top: 12px;
+    
+}
+
+.header-section{
+    margin-top: 5%;
+    color: #edf1f3;
+    margin-left: 280px;
+}
+.header-section h1{
+    font-size: 72px;
+    margin-bottom: 30px;
+}
+.header-section p{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+/* logo card  CSS */
+.logoCardContainer{
+    margin: auto;
+    width: 75%;
+    background-color: #ffffff   ;
+    position: relative;
+    top: -40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    border-radius: 10px;
+    gap: 80px;
+}
+.logoCardContainer img{
+     height:30px;
+    }
+  .card-heading {
+    font-size: 35px;
+    /* background-color: #58db2c; */
+    margin: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    width: 28%;
+    font-weight: 800;
+  }
+  .grid-card-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    gap: 15px;
+    /* padding: 0 300px; */
+  }
+ .grid-img{
+    height: 300px;
+    width: 270px;
+    border-radius: 10px;
+    
+  
+  }
+  .grid-img-2-5-8 {
+    position: relative;
+    top: 25px;
+  }
+.grid-img-3-4-9{
+     position: relative;
+     top: 50px;
+}
+.card-info
+{
+   position: relative;
+   bottom: 45px;
+   display: flex;
+  justify-content: space-evenly;
+   background-color: #ffff;
+   padding: 2px;
+   border-radius: 15px;
+    width: 83%;
+   margin-left: 28px;
+   padding-top: 8px;
+}
+.card-info p{
+    font-size: 13px;
+    color: #4d4beb;
+}
+.card-info button{
+    position: relative;
+    top: 9px;
+    left: 4px;
+    margin-left: 8px;
+    padding: 9px 28px;
+    font-size: 14px;
+    border-radius: 20px;
+}
+.card-info-2-5-8{
+    position: relative;
+    bottom: 28px;
+}
+.card-info-3-4-9{
+    position: relative;
+    bottom: 15px;
+}
+/* feature section css */
+.feature-section{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 200px;
+    margin-left: 200px;
+   
+    /* background-color: #25a94d; */
+}
+.first-feature-section{
+    width: 78%;
+    margin: auto;
+    margin-top: 180px;
+    margin-left:180px;
+    padding:0 170px;
+    height: 35%;
+}
+.second-feature-section{
+    width: 78%;
+    margin: auto;
+    margin-top: 180px;
+    margin-left:180px;
+    padding:0 170px;
+    height: 35%;
+}
+
+.feature-section h1,p{
+    margin-bottom: 25px;
+
+}
+.feature-section h1{
+    font-size: 35px;
+}
+.feature-section p{
+    font-size: 14px;
+}
+
+.feature-section img{
+    height: 310px;
+    
+}
+.feature-image-1{
+    position: relative;
+    bottom: 394px;
+    left: 76px;
+
+    height: 300px;
+    width: 275px;
+    border-radius: 10px;
+}
+.feature-image-2{
+    position: relative;
+    bottom: 84px;
+    left: 187px;
+    height: 300px;
+    width: 275px;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+    .ab {
+        width: 507px;
+        position: relative;
+        bottom: 324px;
+        left: 55px;
+    }
+
+.second-feature-text-cont{
+        width:645px;
+        height: 307px;
+    /* background-color: #c44141; */
+    
+}
+/* subscribe card CSS */
+.subscribe-cont{
+    margin: auto;
+    background-color: #6663e9;
+    height: 40%;
+    width: 66%;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    margin-top: 60px;
+    padding-bottom: 50px;
+  
+}
+.subscribe-cont button{
+    background-color: #fff;
+    color: #4d4beb;
+}
+.subscribe-cont h1 {
+    font-size: 40px;
+         padding-top: 40px;
+         
+}
+.subscribe-cont p{
+    margin:auto;
+    font-size: 13px;
+    padding-top: 13px;
+    margin-bottom: 16px;
+
+}
+form {
+    display: flex;
+    /* justify-content: space-around; */
+    width: 49%;
+    gap: 30px;
+    margin: auto;
+    
+}
+form input{
+    padding: 17px 65px;
+    text-align: c;
+    background-color: #5654d1;
+    color: black;
+    border: none;
+    font-weight: 700;
+    border-radius: 20px;
+
+}
+form img{
+    height: 21px;
+    position: relative;
+    left: 55px;
+    top: 5px;
+}
+footer {
+    display:flex ;
+    justify-content: space-around;
+    margin-top: 100px;
+    margin-left: 120px;
+    padding-bottom: 150px;
+}
+footer img{
+    height: 50px;
+    padding-left: 25px;
+    margin-bottom: 15px;
+    cursor: pointer;
+
+
+}
+footer p{
+    padding-left: 25px;
+
+}
+.logo-cont img{
+    height: 32px;
+    padding-left: 25px;
+    cursor: pointer;
+}
+
+footer a{
+    color: black;
+
+
+}
+.footer-link-cont{
+    display: flex;
+    justify-content: space-around;
+    gap: 150px;
+    margin-right: 130px;
+}
+.footer-link-cont li{
+    margin-bottom: 14px;
+}
